@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Heart, Gift, Sparkles, Star } from "lucide-react";
-
+import ej from "./assets/WhatsApp Image 2025-08-05 at 7.02.08 PM.jpeg";
 const App = () => {
   const [showMessage, setShowMessage] = useState(false);
   const [showConfetti, setShowConfetti] = useState(false);
@@ -89,9 +89,16 @@ const App = () => {
             }`}
           >
             <div className="mb-8 relative">
-              <div className="inline-block p-8 bg-white bg-opacity-20 rounded-full backdrop-blur-sm animate-pulse">
-                <Gift className="w-24 h-24 text-white mx-auto" />
+              {/* <div className=" p-8 bg-white bg-opacity-20 rounded-full backdrop-blur-sm animate-pulse hidden"> */}
+              <div className="w-full flex items-center justify-center">
+                <img
+                  src={ej}
+                  alt=""
+                  className="w-[300px] h-[300px] rounded-full"
+                />
               </div>
+              {/* <Gift className="w-24 h-24 text-white mx-auto" />
+              </div> */}
               {/* Floating hearts around the gift */}
               <div className="absolute -top-4 -left-4 animate-bounce delay-300">
                 <Heart className="w-8 h-8 text-pink-300" />
