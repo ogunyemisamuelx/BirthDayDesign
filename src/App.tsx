@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Heart, Gift, Sparkles, Star } from "lucide-react";
+import { Heart, Sparkles, Star } from "lucide-react";
 import ej from "./assets/WhatsApp Image 2025-08-05 at 7.02.08 PM.jpeg";
 const App = () => {
   const [showMessage, setShowMessage] = useState(false);
