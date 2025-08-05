@@ -101,7 +101,7 @@ const App = () => {
               </div> */}
               {/* Floating hearts around the gift */}
               <div className="absolute -top-4 -left-4 animate-bounce delay-300">
-                <Heart className="w-8 h-8 text-pink-400" />
+                <Heart className="w-8 h-8 text-pink-300" />
               </div>
               <div className="absolute -top-4 -right-4 animate-bounce delay-500">
                 <Heart className="w-6 h-6 text-red-300 " />
